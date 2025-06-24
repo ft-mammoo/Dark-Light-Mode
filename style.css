@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    transition: background 0.2s, color 0.2s;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+body.light {
+    background: #f1f5f9;
+    color: #444;
+}
+body.dark {
+    background: #444;
+    color: #f1f5f9;
+}
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
